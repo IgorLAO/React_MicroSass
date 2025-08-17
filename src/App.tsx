@@ -1,17 +1,12 @@
-import viteLogo from '/vite.svg'
+import Navbar from './components/navbar'
 
 function App() {
 
   return (
-    <main className='width:200'>
-      <div className="mx-auto flex max-w-sm items-center gap-x-4 rounded-xl bg-white p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
-        <img className="size-12 shrink-0" src={viteLogo} alt="ChitChat Logo" />
-        <div>
-          <div className="text-x1 font-medium text-black dark:text-white">ChitChat</div>
-          <p className="text-gray-500 dark:text-gray-400">You have a new message!</p>
-        </div>
-      </div>
-    </main>
+    <>
+      <Navbar />
+    </>
+
   )
 }
 
